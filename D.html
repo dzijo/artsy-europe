@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+  <style>
+  </style>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/topojson.v1.min.js"></script>
+  </head>
+  <body>
+  <script>
+  
+	var width = 960;
+	var height = 700;
+	
+	var divWidth = 200;
+	var divHeight = 200;
+
+	var active = d3.select(null);
+	var color = d3.scale.category20();
+	
+	var projection = d3.geo.mercator()
+        .center([ -180, 52 ])
+		.translate([ width / 2, height / 2 ])
+        .rotate([ -180, 0 ])
+        .scale([ width / 2 ]);
+		
+	var path = d3.geo.path()
+		.projection(projection);
+		
+	var svg = d3.select("body").append("svg")
+		.attr("width", width)
+		.attr("height", height);
+		
+	svg.append("rect")
+		.attr("class", "background")
+		.attr("width", width)
+        .attr("height", height)
+        .style("fill", "AliceBlue")
+		.on("click", reset);
+		
+	var g = svg.append("g")
+        .style("stroke-width", "1.5px");
+        
+     
+    imgUrl = "https://learnodo-newtonic.com/wp-content/uploads/2014/02/Ad-Parnassum-1932-by-Paul-Klee.webp"
+    
+    svg.append("defs")
+        .append("pattern")
+        .attr("id", "paulKlee")
+        .attr('patternUnits', 'userSpaceOnUse')
+        .attr("width", 100)
+        .attr("height", 250)
+        .append("image")
+        .attr("xlink:href", imgUrl)
+        .attr("width", 150)
+        .attr("height", 250);    
+		
+	d3.json("map2.json", function(eu) {
+		g.selectAll("path.counrty")
+			.data(eu.features)
+			.enter()
+			.append("path")
+			.attr("class", "counrty")
+			.attr("id", function(d) { return d.postal; })
+			.attr("d", path) 
+            .style("fill", function(d, i) { 
+                if (d.properties.postal == "D") { return "url(#paulKlee)" }
+                else { return color(i) } })
+			.style("stroke", "gray")
+			.style("stroke-width", 1)
+			.style("stroke-opacity", 1)
+            .on("click", clicked)
+            .append("text")
+            .attr("text-anchor", "middle")
+            .text(function(d) { return d.properties.name; })        
+            .each(function(d) { console.log(d.properties.postal) })						
+    }); 
+
+    console.log(d3.selectAll("svg.g.path.country.D"))        
+        //.style("fill", "url(#paulKlee)")
+
+	function clicked(d) {
+		
+        if (active.node() === this) return reset();
+        active.classed("active", false);
+        active = d3.select(this).classed("active", true);
+
+        setTimeout(reset, 10000);
+
+        var bounds = path.bounds(d),
+            dx = bounds[1][0] - bounds[0][0],
+            dy = bounds[1][1] - bounds[0][1],
+            x = (bounds[0][0] + bounds[1][0]) / 2,
+            y = (bounds[0][1] + bounds[1][1]) / 2,
+            scale = .9 / Math.max(dx / width, dy / height),
+            translate = [width / 2 - scale * x, height / 2 - scale * y];
+
+        g.transition()
+            .duration(750)
+            .style("stroke-width", 1.5 / scale + "px")
+            .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
+
+		  
+		g.transition()
+			.duration(750)
+			.delay(10000)	
+            .attr("transform", "");
+            
+        console.log(d.properties.name)
+
+	}
+	
+	function reset() {
+	
+		g.transition()	
+			.duration(750)
+			.style("stroke-width", "1.5px")
+			.attr("transform", "");
+			  
+		active.classed("active", false);
+		active = d3.select(null);
+	}
+	
+	
+
+  </script>
+  </body>
+</html>
