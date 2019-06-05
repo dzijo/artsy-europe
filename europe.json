@@ -6,7 +6,15 @@
       "geometries": [
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Azerbaijan" },
+          "properties": {
+            "NAME": "Azerbaijan",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "AZ",
           "arcs": [
             [ [ 0, 1, 2 ] ],
@@ -20,13 +28,29 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Albania" },
+          "properties": {
+            "NAME": "Albania",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "AL",
           "arcs": [ [ 12, 13, 14, 15, 16, 17, 18 ] ]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Armenia" },
+          "properties": {
+            "NAME": "Armenia",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "AM",
           "arcs": [
             [ [ -12 ] ],
@@ -39,25 +63,57 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Bosnia and Herzegovina" },
+          "properties": {
+            "NAME": "Bosnia and Herzegovina",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "BA",
           "arcs": [ [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Bulgaria" },
+          "properties": {
+            "NAME": "Bulgaria",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "BG",
           "arcs": [ [ 32, 33, 34, 35, 36, 37 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Cyprus" },
+          "properties": {
+            "NAME": "Cyprus",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "CY",
           "arcs": [ [ 38 ] ]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Denmark" },
+          "properties": {
+            "NAME": "Denmark",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "DK",
           "arcs": [
             [ [ 39 ] ],
@@ -82,7 +138,15 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Ireland" },
+          "properties": {
+            "NAME": "Ireland",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "IE",
           "arcs": [
             [ [ 58 ] ],
@@ -93,7 +157,15 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Estonia" },
+          "properties": {
+            "NAME": "Estonia",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "EE",
           "arcs": [
             [ [ 63 ] ],
@@ -106,19 +178,43 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Austria" },
+          "properties": {
+            "NAME": "Austria",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "AT",
           "arcs": [ [ 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Czech Republic" },
+          "properties": {
+            "NAME": "Czech Republic",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "CZ",
           "arcs": [ [ 98, 99, 100, 101, 102, 103, 104, 105, 106, -76 ] ]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Finland" },
+          "properties": {
+            "NAME": "Finland",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "FI",
           "arcs": [
             [ [ 107 ] ],
@@ -151,7 +247,15 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "France" },
+          "properties": {
+            "NAME": "France",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "FR",
           "arcs": [
             [ [ 136 ] ],
@@ -167,13 +271,29 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Georgia" },
+          "properties": {
+            "NAME": "Georgia",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "GE",
           "arcs": [ [ 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, -10, 177, -8, -22, 178, 179 ] ]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Germany" },
+          "properties": {
+            "NAME": "Germany",
+            "ImgUrl": "https://learnodo-newtonic.com/wp-content/uploads/2014/02/Ad-Parnassum-1932-by-Paul-Klee.webp",
+            "Artist": "paulKlee",
+            "x": "510",
+            "y": "260",
+            "width": "160",
+            "height": "160"
+          },
           "id": "DE",
           "arcs": [
             [ [ 180 ] ],
@@ -201,7 +321,15 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Greece" },
+          "properties": {
+            "NAME": "Greece",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "GR",
           "arcs": [
             [ [ 231 ] ],
@@ -276,7 +404,15 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Croatia" },
+          "properties": {
+            "NAME": "Croatia",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "HR",
           "arcs": [
             [ [ 302 ] ],
@@ -302,19 +438,43 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Hungary" },
+          "properties": {
+            "NAME": "Hungary",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "HU",
           "arcs": [ [ -330, 344, -328, 345, -326, 346, -324, 347, -78, 348, 349, 350, 351 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Iceland" },
+          "properties": {
+            "NAME": "Iceland",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "IS",
           "arcs": [ [ 352 ] ]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Israel" },
+          "properties": {
+            "NAME": "Israel",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "IL",
           "arcs": [
             [ [ 353 ] ],
@@ -323,7 +483,15 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Italy" },
+          "properties": {
+            "NAME": "Italy",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "IT",
           "arcs": [
             [
@@ -356,19 +524,43 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Latvia" },
+          "properties": {
+            "NAME": "Latvia",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "LV",
           "arcs": [ [ -74, 389, -72, 390, -70, 391, 392, 393, 394, 395, 396 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Belarus" },
+          "properties": {
+            "NAME": "Belarus",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "BY",
           "arcs": [ [ -393, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426 ] ]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Lithuania" },
+          "properties": {
+            "NAME": "Lithuania",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "LT",
           "arcs": [
             [ [ 427, 428 ] ],
@@ -377,25 +569,57 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Slovakia" },
+          "properties": {
+            "NAME": "Slovakia",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "SK",
           "arcs": [ [ -77, -107, 437, 438, -349 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Liechtenstein" },
+          "properties": {
+            "NAME": "Liechtenstein",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "LI",
           "arcs": [ [ -86, 439 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "The former Yugoslav Republic of Macedonia" },
+          "properties": {
+            "NAME": "The former Yugoslav Republic of Macedonia",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "MK",
           "arcs": [ [ 440, -35, -302, -15 ] ]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Malta" },
+          "properties": {
+            "NAME": "Malta",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "MT",
           "arcs": [
             [ [ 441 ] ],
@@ -404,13 +628,29 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Belgium" },
+          "properties": {
+            "NAME": "Belgium",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "BE",
           "arcs": [ [ 443, 444, 445, 446, 447, -228, 448, -145, 449, 450, 451 ] ]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Faroe Islands" },
+          "properties": {
+            "NAME": "Faroe Islands",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "FO",
           "arcs": [
             [ [ 452 ] ],
@@ -426,31 +666,71 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Andorra" },
+          "properties": {
+            "NAME": "Andorra",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "AD",
           "arcs": [ [ 461, -162 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Luxembourg" },
+          "properties": {
+            "NAME": "Luxembourg",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "LU",
           "arcs": [ [ -227, 462, -225, -148, 463, -146, -449 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Monaco" },
+          "properties": {
+            "NAME": "Monaco",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "MC",
           "arcs": [ [ 464, 465, -158 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Montenegro" },
+          "properties": {
+            "NAME": "Montenegro",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "ME",
           "arcs": [ [ -28, 466, -13, 467, -308, 468 ] ]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Netherlands" },
+          "properties": {
+            "NAME": "Netherlands",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "NL",
           "arcs": [
             [ [ -451, 469 ] ],
@@ -466,7 +746,15 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Norway" },
+          "properties": {
+            "NAME": "Norway",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "NO",
           "arcs": [
             [ [ 480 ] ],
@@ -566,37 +854,85 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Poland" },
+          "properties": {
+            "NAME": "Poland",
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Portret_z_zona.jpg",
+            "Artist": "stanislavWyspianski",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "PL",
           "arcs": [ [ -106, -211, 575, -209, 576, -207, 577, -205, 578, -203, 579, -192, 580, 581, -433, -422, 582, 583, 584, -438 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Portugal" },
+          "properties": {
+            "NAME": "Portugal",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "PT",
           "arcs": [ [ 585, 586 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Romania" },
+          "properties": {
+            "NAME": "Romania",
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Ion_Theodorescu-Sion_-_Autoportret.jpg",
+            "Artist": "ionTheodorescuSion",
+            "x": "645",
+            "y": "375",
+            "width": "110",
+            "height": "110"
+          },
           "id": "RO",
           "arcs": [ [ 587, 588, 589, 590, -37, 591, -351 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Republic of Moldova" },
+          "properties": {
+            "NAME": "Republic of Moldova",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "MD",
           "arcs": [ [ 592, 593, 594, 595, 596, 597, 598, 599, 600, -589 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Slovenia" },
+          "properties": {
+            "NAME": "Slovenia",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "SI",
           "arcs": [ [ -79, -348, -344, 601, -342, 602, -340, 603, -338, 604, -359, 605, -357 ] ]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Spain" },
+          "properties": {
+            "NAME": "Spain",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "ES",
           "arcs": [
             [ [ 606 ] ],
@@ -612,7 +948,15 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Sweden" },
+          "properties": {
+            "NAME": "Sweden",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "SE",
           "arcs": [
             [ [ 616 ] ],
@@ -638,7 +982,15 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Switzerland" },
+          "properties": {
+            "NAME": "Switzerland",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "CH",
           "arcs": [
             [ 635, -222, 636, -220, -87, -440, -85, -364, 637, -362, 638, -154, 639, -152, 640, -150, -224 ],
@@ -647,7 +999,15 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Turkey" },
+          "properties": {
+            "NAME": "Turkey",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "TR",
           "arcs": [
             [ [ 641 ] ],
@@ -659,7 +1019,15 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "United Kingdom" },
+          "properties": {
+            "NAME": "United Kingdom",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "GB",
           "arcs": [
             [ [ 646 ] ],
@@ -714,7 +1082,15 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Ukraine" },
+          "properties": {
+            "NAME": "Ukraine",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "UA",
           "arcs": [
             [ [ 694 ] ],
@@ -725,25 +1101,57 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "San Marino" },
+          "properties": {
+            "NAME": "San Marino",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "SM",
           "arcs": [ [ 708, -367 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Serbia" },
+          "properties": {
+            "NAME": "Serbia",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "RS",
           "arcs": [ [ -467, -27, -335, 709, -333, 710, -331, -352, -592, -36, -441, -14 ] ]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Holy See (Vatican City)" },
+          "properties": {
+            "NAME": "Holy See (Vatican City)",
+            "ImgUrl": "",
+            "Artist": "",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": ""
+          },
           "id": "VA",
           "arcs": [ [ -368 ] ]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Russia" },
+          "properties": {
+            "NAME": "Russia",
+            "ImgUrl": "https://cdni.rbth.com/rbthmedia/images/2018.03/original/5aba1e8585600a1a5a42d132.jpg",
+            "Artist": "andreiRublev",
+            "x": "520",
+            "y": "0",
+            "width": "550",
+            "height": "550"
+          },
           "id": "RU",
           "arcs": [
             [ [ 711, -434, -582, 712, -428, 713, -436 ] ],
