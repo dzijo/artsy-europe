@@ -856,7 +856,8 @@
           "type": "Polygon",
           "properties": {
             "NAME": "Poland",
-            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Portret_z_zona.jpg",
+            "ImgUrl":  "",
+            "ImgUrlf": "https://upload.wikimedia.org/wikipedia/commons/2/29/Portret_z_zona.jpg",
             "Artist": "stanislavWyspianski",
             "x": "",
             "y": "",
