@@ -8,12 +8,12 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME": "Azerbaijan",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Miraj_by_Sultan_Muhammad.jpg",
+            "Artist": "sultanMuhammad",
+            "x": "880",
+            "y": "460",
+            "width": "80",
+            "height": "80"
           },
           "id": "AZ",
           "arcs": [
@@ -30,12 +30,12 @@
           "type": "Polygon",
           "properties": {
             "NAME": "Albania",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://img.theculturetrip.com/fit-in/1024x/wp-content/uploads/2018/05/1280px-saint_apostles_church_in_kastoria_saint_mary_vlahernitissa_fresco_onufri_argites_1547.jpg",
+            "Artist": "onufri",
+            "x": "630",
+            "y": "460",
+            "width": "50",
+            "height": "50"
           },
           "id": "AL",
           "arcs": [ [ 12, 13, 14, 15, 16, 17, 18 ] ]
@@ -44,12 +44,12 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME": "Armenia",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://rentyerevan.com/wp-content/uploads/2016/12/ayvazovskiy.jpg",
+            "Artist": "hovhannesAivazovsky",
+            "x": "820",
+            "y": "440",
+            "width": "100",
+            "height": "100"
           },
           "id": "AM",
           "arcs": [
@@ -65,12 +65,12 @@
           "type": "Polygon",
           "properties": {
             "NAME": "Bosnia and Herzegovina",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://storage.gra1.cloud.ovh.net/v1/AUTH_10e1a9235c63431c95e5b84a247830db/prod/artwork/292630_1_l.jpg",
+            "Artist": "safetZec",
+            "x": "588",
+            "y": "396",
+            "width": "80",
+            "height": "80"
           },
           "id": "BA",
           "arcs": [ [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ] ]
@@ -79,12 +79,12 @@
           "type": "Polygon",
           "properties": {
             "NAME": "Bulgaria",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Zograf_self.jpg",
+            "Artist": "zahariZograf",
+            "x": "665",
+            "y": "440",
+            "width": "80",
+            "height": "80"
           },
           "id": "BG",
           "arcs": [ [ 32, 33, 34, 35, 36, 37 ] ]
@@ -93,12 +93,12 @@
           "type": "Polygon",
           "properties": {
             "NAME": "Cyprus",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://media.mutualart.com/Images/2012_05/24/20/202616003/7b475d0d-fb83-4bf1-81bc-7469535d8b0a_570.Jpeg",
+            "Artist": "adamantiosDiamantis",
+            "x": "760",
+            "y": "542",
+            "width": "40",
+            "height": "40"
           },
           "id": "CY",
           "arcs": [ [ 38 ] ]
@@ -856,13 +856,12 @@
           "type": "Polygon",
           "properties": {
             "NAME": "Poland",
-            "ImgUrl":  "",
-            "ImgUrlf": "https://upload.wikimedia.org/wikipedia/commons/2/29/Portret_z_zona.jpg",
+            "ImgUrl":  "https://upload.wikimedia.org/wikipedia/commons/2/29/Portret_z_zona.jpg",
             "Artist": "stanislavWyspianski",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "x": "570",
+            "y": "270",
+            "width": "140",
+            "height": "140"
           },
           "id": "PL",
           "arcs": [ [ -106, -211, 575, -209, 576, -207, 577, -205, 578, -203, 579, -192, 580, 581, -433, -422, 582, 583, 584, -438 ] ]

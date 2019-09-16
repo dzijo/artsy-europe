@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
   </head>
+
   <body>
     <div id="map"></div>
     <script src="http://d3js.org/d3.v4.min.js"></script>
@@ -46,7 +48,7 @@
       var projection;
       var active = d3.select(null);
       var colorScale = d3.scaleOrdinal(d3.schemeCategory20)
-	  //var color = d3.scale.category20a();
+      //var color = d3.scale.category20a();
       /* var speed = 2800;//km/sec
       var tooltip = d3.select('#map').append('div')	
           .attr('class', 'tooltipDestination')				
@@ -184,9 +186,9 @@
       function drawConnections() {
         drawConnection(0);
       } */
-      
 
-       
+
+
 
       function drawMap(originName, originGeo, destinations) {
         var countries, height, path, projection, scale, svg, width;
@@ -201,49 +203,50 @@
           .attr('width', width)
           .style('background', '#C1E1EC');
         countries = svg.append("g");
-       			
-        d3.json('europe.json', function(data) {
+
+        d3.json('europe.json', function (data) {
           var boxes = boundingExtent(topojson.feature(data, data.objects.europe).features, path)
 
           countries.selectAll('.country')
-          .data(topojson.feature(data, data.objects.europe).features)
-          .enter()
-          .append('path')
-          .attr('class', 'country')
-          .attr('d', path)
-          //.style("fill", "blue")
-          .style("fill", function(d, i) {
-			  if (d.properties.ImgUrl != "")
-			    {
-					svg.append("defs")
-						.append("pattern")
-						.attr("id", d.properties.Artist)
-						.attr('patternUnits', 'userSpaceOnUse')
-						.attr("width", 1000)
-						.attr("height", 800)
-						.append("image")
-						.attr("xlink:href", d.properties.ImgUrl)
-						.attr("x", d.properties.x)
-						.attr("y", d.properties.y)
-						.attr("width", d.properties.width)
-						.attr("height", d.properties.height)
-						.style("object-fit", "cover");
-						
-					return "url(#" + d.properties.Artist + ")";
-				}
+            .data(topojson.feature(data, data.objects.europe).features)
+            .enter()
+            .append('path')
+            .attr('class', 'country')
+            .attr('d', path)
+            //.style("fill", "blue")
+            .style("stroke", "white")
+            .style("stroke-width", "0.1px")
+            .style("fill", function (d, i) {
+              if (d.properties.ImgUrl != "") {
+                svg.append("defs")
+                  .append("pattern")
+                  .attr("id", d.properties.Artist)
+                  .attr('patternUnits', 'userSpaceOnUse')
+                  .attr("width", 1000)
+                  .attr("height", 800)
+                  .append("image")
+                  .attr("xlink:href", d.properties.ImgUrl)
+                  .attr("x", d.properties.x)
+                  .attr("y", d.properties.y)
+                  .attr("width", d.properties.width)
+                  .attr("height", d.properties.height)
+                  .style("object-fit", "cover");
+
+                return "url(#" + d.properties.Artist + ")";
+              }
               return colorScale(i)
-          })
-          .on('mouseover', function(d, i) {
-            d3.select(this)
+            })
+            .on('mouseover', function (d, i) {
+              d3.select(this)
                 .style('opacity', 0.8)
-            console.log(boxes[i])
-            return
-          }) 
-          .on('mouseout', function(){
-            d3.select(this)
+              console.log(boxes[i])
+              return
+            })
+            .on('mouseout', function () {
+              d3.select(this)
                 .style('opacity', 1)
-            return
-          })
+              return
+            })
           //.on("click", clicked)
           return;
         });
@@ -286,7 +289,7 @@
       };
       this.drawMap(this.originName, this.originGeo, this.destinations);
       function clicked(d) {
-		
+
         if (active.node() === this) return reset();
         active.classed("active", false);
         active = d3.select(this).classed("active", true);
@@ -294,55 +297,56 @@
         setTimeout(reset, 10000);
 
         var bounds = path.bounds(d),
-            dx = bounds[1][0] - bounds[0][0],
-            dy = bounds[1][1] - bounds[0][1],
-            x = (bounds[0][0] + bounds[1][0]) / 2,
-            y = (bounds[0][1] + bounds[1][1]) / 2,
-            scale = .9 / Math.max(dx / width, dy / height),
-            translate = [width / 2 - scale * x, height / 2 - scale * y];
+          dx = bounds[1][0] - bounds[0][0],
+          dy = bounds[1][1] - bounds[0][1],
+          x = (bounds[0][0] + bounds[1][0]) / 2,
+          y = (bounds[0][1] + bounds[1][1]) / 2,
+          scale = .9 / Math.max(dx / width, dy / height),
+          translate = [width / 2 - scale * x, height / 2 - scale * y];
 
         g.transition()
-            .duration(750)
-            .style("stroke-width", 1.5 / scale + "px")
-            .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
+          .duration(750)
+          .style("stroke-width", 1.5 / scale + "px")
+          .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
 
-		  
-		g.transition()
-			.duration(750)
-			.delay(10000)	
-            .attr("transform", "");
-            
+
+        g.transition()
+          .duration(750)
+          .delay(10000)
+          .attr("transform", "");
+
         console.log(d.properties.name)
 
-	}
-	
-	function reset() {
-	
-		g.transition()	
-			.duration(750)
-			.style("stroke-width", "1.5px")
-			.attr("transform", "");
-			  
-		active.classed("active", false);
-		active = d3.select(null);
-	}
+      }
 
-  function boundingExtent(features, myPath) {
-    var bounds= [];
-    for (var x in features) {
-      var boundObj = {};
-      thisBounds = myPath.bounds(features[x]);
-      console.log(thisBounds);
-      boundObj.id = features[x].id;
-      boundObj.x = thisBounds[0][0];
-      boundObj.y = thisBounds[0][1];
-      boundObj.width = thisBounds[1][0] - thisBounds[0][0];
-      boundObj.height = thisBounds[1][1] - thisBounds[0][1];
-      boundObj.path = thisBounds;
-      bounds.push(boundObj)
-    }
-    return bounds;
-  }
+      function reset() {
+
+        g.transition()
+          .duration(750)
+          .style("stroke-width", "1.5px")
+          .attr("transform", "");
+
+        active.classed("active", false);
+        active = d3.select(null);
+      }
+
+      function boundingExtent(features, myPath) {
+        var bounds = [];
+        for (var x in features) {
+          var boundObj = {};
+          thisBounds = myPath.bounds(features[x]);
+          console.log(thisBounds);
+          boundObj.id = features[x].id;
+          boundObj.x = thisBounds[0][0];
+          boundObj.y = thisBounds[0][1];
+          boundObj.width = thisBounds[1][0] - thisBounds[0][0];
+          boundObj.height = thisBounds[1][1] - thisBounds[0][1];
+          boundObj.path = thisBounds;
+          bounds.push(boundObj)
+        }
+        return bounds;
+      }
     </script>
   </body>
+
 </html>
