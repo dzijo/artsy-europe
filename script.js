@@ -175,7 +175,7 @@ var colorScale = d3.scaleOrdinal(d3.schemeCategory20)
         drawConnection(0);
       } */
 
-function drawMap(originName, originGeo, destinations) {
+function drawMap (originName, originGeo, destinations) {
   var countries, height, path, projection, scale, svg, width
   var width = 1000
   var height = 700
@@ -201,7 +201,11 @@ function drawMap(originName, originGeo, destinations) {
       topojson.feature(data, data.objects.europe).features,
       path
     )
-
+    var tooltip = d3
+      .select('body')
+      .append('div')
+      .attr('class', 'tooltip')
+      .style('display', 'none')
     countries
       .selectAll('.country')
       .data(topojson.feature(data, data.objects.europe).features)
@@ -235,19 +239,42 @@ function drawMap(originName, originGeo, destinations) {
       })
       .on('click', function (x, y) {
         zoomIn(this)
+        title = document.getElementById('title')
+        subtitle = document.getElementById('subtitle')
+        paragraph = document.getElementById('paragraph')
+        image = document.getElementById('image')
+        if (zoomInBool) {
+          if (x.properties.artPiece) title.innerHTML = x.properties.artPiece
+          if (x.properties.NAME) subtitle.innerHTML = x.properties.NAME
+          if (x.properties.paragraph) image.innerHTML = x.properties.paragraph
+          if (x.properties.ImgUrl) image.src = x.properties.ImgUrl
+        } else {
+          title.innerHTML = ""
+          subtitle.innerHTML = ""
+          image.innerHTML = ""
+          image.src = ""
+        }
       })
       .on('mouseover', function (d, i) {
         d3.select(this).style('opacity', 0.8)
         console.log(boxes[i])
+        tooltip.style('display', 'inline')
+      })
+      .on('mousemove', function (x, y) {
+        tooltip
+          .text(x.properties.NAME + ', ' + x.id)
+          .style('left', d3.event.pageX - 34 + 'px')
+          .style('top', d3.event.pageY - 12 + 'px')
       })
       .on('mouseout', function () {
         d3.select(this).style('opacity', 1)
+        tooltip.style('display', 'none')
       })
     // .on("click", clicked)
     return
     var zoomInBool = false
     var transX, transY
-    function zoomIn(polygon) {
+    function zoomIn (polygon) {
       var bbox = d3
         .select(polygon)
         .node()
@@ -338,7 +365,7 @@ function drawMap(originName, originGeo, destinations) {
   // this.drawConnections();
 }
 this.drawMap(this.originName, this.originGeo, this.destinations)
-function clicked(d) {
+function clicked (d) {
   if (active.node() === this) return reset()
   active.classed('active', false)
   active = d3.select(this).classed('active', true)
@@ -372,7 +399,7 @@ function clicked(d) {
   console.log(d.properties.name)
 }
 
-function reset() {
+function reset () {
   g.transition()
     .duration(750)
     .style('stroke-width', '1.5px')
@@ -382,7 +409,7 @@ function reset() {
   active = d3.select(null)
 }
 
-function boundingExtent(features, myPath) {
+function boundingExtent (features, myPath) {
   var bounds = []
   for (var x in features) {
     var boundObj = {}
