@@ -951,8 +951,7 @@
           "properties": {
             "NAME": "Sweden",
             "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Alexander_Roslin_-_The_Lady_with_the_Veil_%28the_Artist%27s_Wife%29_-_Google_Art_Project.jpg/534px-Alexander_Roslin_-_The_Lady_with_the_Veil_%28the_Artist%27s_Wife%29_-_Google_Art_Project.jpg",
-            "Artist": "Alexander Roslin",
-            "Artpiece" : "",
+            "Artist": "alexanderRoslin",
             "x": "510",
             "y": "0",
             "width": "280",
