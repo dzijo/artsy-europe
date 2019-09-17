@@ -107,12 +107,12 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME": "Denmark",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/P.S._Kr%C3%B8yer_-_Summer_evening_on_Skagen%27s_Beach._Anna_Ancher_and_Marie_Kr%C3%B8yer_walking_together._-_Google_Art_Project.jpg/984px-P.S._Kr%C3%B8yer_-_Summer_evening_on_Skagen%27s_Beach._Anna_Ancher_and_Marie_Kr%C3%B8yer_walking_together._-_Google_Art_Project.jpg",
+            "Artist": "pederSeverinKroyer",
+            "x": "520",
+            "y": "214",
+            "width": "100",
+            "height": "100"
           },
           "id": "DK",
           "arcs": [
@@ -140,12 +140,12 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME": "Ireland",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/William_Orpen_-_To_the_Unknown_British_Soldier_in_France.jpg/543px-William_Orpen_-_To_the_Unknown_British_Soldier_in_France.jpg",
+            "Artist": "sirWilliamOrpen",
+            "x": "325",
+            "y": "220",
+            "width": "120",
+            "height": "120"
           },
           "id": "IE",
           "arcs": [
@@ -159,12 +159,12 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME": "Estonia",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Konrad_M%C3%A4gi_-_Maastik_punase_pilvega_-_%C3%B5li.JPG/705px-Konrad_M%C3%A4gi_-_Maastik_punase_pilvega_-_%C3%B5li.JPG",
+            "Artist": "konradMagi",
+            "x": "655",
+            "y": "190",
+            "width": "100",
+            "height": "100"
           },
           "id": "EE",
           "arcs": [
@@ -180,12 +180,12 @@
           "type": "Polygon",
           "properties": {
             "NAME": "Austria",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/638px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+            "Artist": "gustavKlimt",
+            "x": "528",
+            "y": "374",
+            "width": "140",
+            "height": "140"
           },
           "id": "AT",
           "arcs": [ [ 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97 ] ]
@@ -950,12 +950,13 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME": "Sweden",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Alexander_Roslin_-_The_Lady_with_the_Veil_%28the_Artist%27s_Wife%29_-_Google_Art_Project.jpg/534px-Alexander_Roslin_-_The_Lady_with_the_Veil_%28the_Artist%27s_Wife%29_-_Google_Art_Project.jpg",
+            "Artist": "Alexander Roslin",
+            "Artpiece" : "",
+            "x": "510",
+            "y": "0",
+            "width": "280",
+            "height": "280"
           },
           "id": "SE",
           "arcs": [
@@ -984,12 +985,12 @@
           "type": "Polygon",
           "properties": {
             "NAME": "Switzerland",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Ferdinand_hodler.jpg",
+            "Artist": "ferdinandHodler",
+            "x": "512",
+            "y": "375",
+            "width": "60",
+            "height": "60"
           },
           "id": "CH",
           "arcs": [
@@ -1001,12 +1002,12 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME": "Turkey",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://uploads7.wikiart.org/images/osman-hamdi/girl-reciting-qu-ran-1880.jpg",
+            "Artist": "osmanHamdi",
+            "x": "710",
+            "y": "420",
+            "width": "200",
+            "height": "200"
           },
           "id": "TR",
           "arcs": [
@@ -1021,12 +1022,12 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME": "United Kingdom",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg/862px-The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg",
+            "Artist": "josephMallordWilliam",
+            "x": "380",
+            "y": "180",
+            "width": "200",
+            "height": "200"
           },
           "id": "GB",
           "arcs": [
@@ -1084,12 +1085,12 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME": "Ukraine",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Ilja_Jefimowitsch_Repin_-_Reply_of_the_Zaporozhian_Cossacks_-_Yorck.jpg/1083px-Ilja_Jefimowitsch_Repin_-_Reply_of_the_Zaporozhian_Cossacks_-_Yorck.jpg",
+            "Artist": "ilyaRepin",
+            "x": "650",
+            "y": "240",
+            "width": "250",
+            "height": "250"
           },
           "id": "UA",
           "arcs": [
@@ -1117,12 +1118,12 @@
           "type": "Polygon",
           "properties": {
             "NAME": "Serbia",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Paja_Jovanovi%C4%87%3BRanjeni_Crnogorac_.jpg/1074px-Paja_Jovanovi%C4%87%3BRanjeni_Crnogorac_.jpg",
+            "Artist": "pajaJovanovic",
+            "x": "632",
+            "y": "380",
+            "width": "120",
+            "height": "120"
           },
           "id": "RS",
           "arcs": [ [ -467, -27, -335, 709, -333, 710, -331, -352, -592, -36, -441, -14 ] ]
