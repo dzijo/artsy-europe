@@ -175,7 +175,7 @@ var colorScale = d3.scaleOrdinal(d3.schemeCategory20)
         drawConnection(0);
       } */
 
-function drawMap (originName, originGeo, destinations) {
+function drawMap(originName, originGeo, destinations) {
   var countries, height, path, projection, scale, svg, width
   var width = 1000
   var height = 700
@@ -247,7 +247,7 @@ function drawMap (originName, originGeo, destinations) {
     return
     var zoomInBool = false
     var transX, transY
-    function zoomIn (polygon) {
+    function zoomIn(polygon) {
       var bbox = d3
         .select(polygon)
         .node()
@@ -274,6 +274,8 @@ function drawMap (originName, originGeo, destinations) {
             const factor2 = 130
             transX = (-(rectAttr.x + 0) * scale) / factor + factor2
             transY = (-(rectAttr.y + 0) * scale) / factor + factor2
+
+            // console.log(transX, transY)
 
             return (
               'translate(' +
@@ -336,7 +338,7 @@ function drawMap (originName, originGeo, destinations) {
   // this.drawConnections();
 }
 this.drawMap(this.originName, this.originGeo, this.destinations)
-function clicked (d) {
+function clicked(d) {
   if (active.node() === this) return reset()
   active.classed('active', false)
   active = d3.select(this).classed('active', true)
@@ -370,7 +372,7 @@ function clicked (d) {
   console.log(d.properties.name)
 }
 
-function reset () {
+function reset() {
   g.transition()
     .duration(750)
     .style('stroke-width', '1.5px')
@@ -380,7 +382,7 @@ function reset () {
   active = d3.select(null)
 }
 
-function boundingExtent (features, myPath) {
+function boundingExtent(features, myPath) {
   var bounds = []
   for (var x in features) {
     var boundObj = {}

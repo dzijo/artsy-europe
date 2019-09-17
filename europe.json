@@ -194,12 +194,12 @@
           "type": "Polygon",
           "properties": {
             "NAME": "Czech Republic",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Portraits_of_Saints_Cyril_and_Methodius_Pisek_Alphonse_Mucha_1887.jpg/320px-Portraits_of_Saints_Cyril_and_Methodius_Pisek_Alphonse_Mucha_1887.jpg",
+            "Artist": "alphonseMucha",
+            "x": "550",
+            "y": "320",
+            "width": "120",
+            "height": "120"
           },
           "id": "CZ",
           "arcs": [ [ 98, 99, 100, 101, 102, 103, 104, 105, 106, -76 ] ]
@@ -208,12 +208,12 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME": "Finland",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tanssiaiskengat_iso_by_Helena_Schjerfbeck_1882.jpg/800px-Tanssiaiskengat_iso_by_Helena_Schjerfbeck_1882.jpg",
+            "Artist": "heleneSchjerfbeck",
+            "x": "600",
+            "y": "-20",
+            "width": "240",
+            "height": "240"
           },
           "id": "FI",
           "arcs": [
@@ -249,12 +249,12 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME": "France",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_-_Mus%C3%A9e_d%27Orsay_RF_2739_%28derivative_work_-_AutoContrast_edit_in_LCH_space%29.jpg/300px-Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_-_Mus%C3%A9e_d%27Orsay_RF_2739_%28derivative_work_-_AutoContrast_edit_in_LCH_space%29.jpg",
+            "Artist": "pierreAugusteRenoir",
+            "x": "320",
+            "y": "240",
+            "width": "360",
+            "height": "360"
           },
           "id": "FR",
           "arcs": [
@@ -273,12 +273,12 @@
           "type": "Polygon",
           "properties": {
             "NAME": "Georgia",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Niko_Pirosmani._A_Tatar_Fruiterer._Oil_on_cardboard%2C_75x106_cm._The_State_Museum_of_Fine_Arts_of_Georgia%2C_Tbilisi.jpg",
+            "Artist": "nikoPirosmani",
+            "x": "822",
+            "y": "415",
+            "width": "100",
+            "height": "100"
           },
           "id": "GE",
           "arcs": [ [ 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, -10, 177, -8, -22, 178, 179 ] ]
@@ -292,7 +292,9 @@
             "x": "510",
             "y": "260",
             "width": "160",
-            "height": "160"
+            "height": "160",
+            "artPiece": "Ad Parnassum (1932) - Paul Klee",
+            "paragraph": "<a href=\"https://www.learnodo-newtonic.com/famous-german-artists\">More about Germans artists</a>"
           },
           "id": "DE",
           "arcs": [
@@ -323,12 +325,12 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME": "Greece",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/%22Athens_Houses%22_%281927_-_1928%29_-_Hatzikyriakos-Ghikas_Nikos.jpg/300px-%22Athens_Houses%22_%281927_-_1928%29_-_Hatzikyriakos-Ghikas_Nikos.jpg",
+            "Artist": "nikosHadjikyriakosGhikas",
+            "x": "640",
+            "y": "434",
+            "width": "160",
+            "height": "160"
           },
           "id": "GR",
           "arcs": [
@@ -406,12 +408,12 @@
           "type": "MultiPolygon",
           "properties": {
             "NAME": "Croatia",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Vlaho_Bukovac%2C_Hrvatski_preporod_%28svecani_zastor_Hrvatskog_narodnog_kazalista_u_Zagrebu%29.jpg",
+            "Artist": "vlahoBukovac",
+            "x": "568",
+            "y": "320",
+            "width": "200",
+            "height": "200"
           },
           "id": "HR",
           "arcs": [
@@ -440,12 +442,12 @@
           "type": "Polygon",
           "properties": {
             "NAME": "Hungary",
-            "ImgUrl": "",
-            "Artist": "",
-            "x": "",
-            "y": "",
-            "width": "",
-            "height": ""
+            "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Cskt-romai_hid_mosztarban_%281903%29.jpg",
+            "Artist": "tivadarCsontváryKosztka",
+            "x": "588",
+            "y": "344",
+            "width": "120",
+            "height": "120"
           },
           "id": "HU",
           "arcs": [ [ -330, 344, -328, 345, -326, 346, -324, 347, -78, 348, 349, 350, 351 ] ]
