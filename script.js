@@ -246,7 +246,7 @@ function drawMap (originName, originGeo, destinations) {
         if (zoomInBool) {
           if (x.properties.artPiece) title.innerHTML = x.properties.artPiece
           if (x.properties.NAME) subtitle.innerHTML = x.properties.NAME
-          if (x.properties.paragraph) image.innerHTML = x.properties.paragraph
+          if (x.properties.paragraph) paragraph.innerHTML = x.properties.paragraph
           if (x.properties.ImgUrl) image.src = x.properties.ImgUrl
         } else {
           title.innerHTML = ""
