@@ -201,7 +201,11 @@ function drawMap (originName, originGeo, destinations) {
       topojson.feature(data, data.objects.europe).features,
       path
     )
-
+    var tooltip = d3
+      .select('body')
+      .append('div')
+      .attr('class', 'tooltip')
+      .style('display', 'none')
     countries
       .selectAll('.country')
       .data(topojson.feature(data, data.objects.europe).features)
@@ -235,13 +239,27 @@ function drawMap (originName, originGeo, destinations) {
       })
       .on('click', function (x, y) {
         zoomIn(this)
+        title = document.getElementById('title')
+        subtitle = document.getElementById('subtitle')
+        paragraph = document.getElementById('paragraph')
+        if (x.properties.artPiece) title.innerHTML = x.properties.artPiece
+        if (x.properties.NAME) subtitle.innerHTML = x.properties.NAME
+        if (x.properties.paragraph) paragraph.innerHTML = x.properties.paragraph
       })
       .on('mouseover', function (d, i) {
         d3.select(this).style('opacity', 0.8)
         console.log(boxes[i])
+        tooltip.style('display', 'inline')
+      })
+      .on('mousemove', function (x, y) {
+        tooltip
+          .text(x.properties.NAME + ', ' + x.id)
+          .style('left', d3.event.pageX - 34 + 'px')
+          .style('top', d3.event.pageY - 12 + 'px')
       })
       .on('mouseout', function () {
         d3.select(this).style('opacity', 1)
+        tooltip.style('display', 'none')
       })
     // .on("click", clicked)
     return
