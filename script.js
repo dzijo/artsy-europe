@@ -237,17 +237,17 @@ function drawMap(originName, originGeo, destinations) {
         }
         return colorScale(i)
       })
-      .on('click', function (x, y) {
+      .on('click', function (d, i) {
         zoomIn(this)
         title = document.getElementById('title')
         subtitle = document.getElementById('subtitle')
         paragraph = document.getElementById('paragraph')
         image = document.getElementById('image')
         if (zoomInBool) {
-          if (x.properties.artPiece) title.innerHTML = x.properties.artPiece
-          if (x.properties.NAME) subtitle.innerHTML = x.properties.NAME
-          if (x.properties.paragraph) paragraph.innerHTML = x.properties.paragraph
-          if (x.properties.ImgUrl) image.src = x.properties.ImgUrl
+          if (d.properties.artPiece) title.innerHTML = d.properties.artPiece
+          if (d.properties.NAME) subtitle.innerHTML = d.properties.NAME
+          if (d.properties.paragraph) paragraph.innerHTML = d.properties.paragraph
+          if (d.properties.ImgUrl) image.src = d.properties.ImgUrl
         } else {
           title.innerHTML = ""
           subtitle.innerHTML = ""
@@ -260,11 +260,11 @@ function drawMap(originName, originGeo, destinations) {
         console.log(boxes[i])
         tooltip.style('display', 'inline')
       })
-      .on('mousemove', function (x, y) {
+      .on('mousemove', function (d, i) {
         tooltip
-          .text(x.properties.NAME + ', ' + x.id)
-          .style('left', d3.event.pageX - 34 + 'px')
-          .style('top', d3.event.pageY - 12 + 'px')
+          .text(d.properties.NAME + '\n' + d.properties.artPiece)
+          .style('left', d3.event.pageX + 'px')
+          .style('top', d3.event.pageY - 50 + 'px')
       })
       .on('mouseout', function () {
         d3.select(this).style('opacity', 1)

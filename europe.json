@@ -9,11 +9,13 @@
           "properties": {
             "NAME": "Azerbaijan",
             "ImgUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Miraj_by_Sultan_Muhammad.jpg",
-            "Artist": "sultanMuhammad",
+            "Artist": "sultanMohammad",
             "x": "880",
             "y": "460",
             "width": "80",
-            "height": "80"
+            "height": "80",
+            "artPiece": "Mi'Ray (1539-1543) - Sultan Mohhamad",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Sultan_Mohammed\" target=\"_blank\">About Sultan Mohammed</a></br>"
           },
           "id": "AZ",
           "arcs": [
@@ -35,7 +37,9 @@
             "x": "630",
             "y": "460",
             "width": "50",
-            "height": "50"
+            "height": "50",
+            "artPiece": "Saint Mary Vlahernitissa Fresco (1547) - Onufri",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Onufri\" target=\"_blank\">About Onufri</a></br><a href=\"https://en.wikipedia.org/wiki/List_of_Albanian_painters\" target=\"_blank\">More Albanian painters</a>"
           },
           "id": "AL",
           "arcs": [ [ 12, 13, 14, 15, 16, 17, 18 ] ]
@@ -49,7 +53,9 @@
             "x": "820",
             "y": "440",
             "width": "100",
-            "height": "100"
+            "height": "100",
+            "artPiece": "The passage of Jews through the Red Sea (1891) - Hovhannes Aivazovsky",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Ivan_Aivazovsky\" target=\"_blank\">About Hovhannes Aivazovsky</a></br><a href=\"https://rentyerevan.com/5-greatest-armenian-artists/\" target=\"_blank\">More Armenian painters</a>"
           },
           "id": "AM",
           "arcs": [
@@ -70,7 +76,9 @@
             "x": "588",
             "y": "396",
             "width": "80",
-            "height": "80"
+            "height": "80",
+            "artPiece": "Façade de Sarajevo (2015) - Safet Zec",
+            "paragraph": "<a href=\"http://www.safetzec.com/\" target=\"_blank\">About Safet Zec</a></br><a href=\"https://theculturetrip.com/europe/bosnia-herzegovina/articles/10-artists-from-bosnia-and-herzegovina-you-should-know/\" target=\"_blank\">More painters from B&H</a>"
           },
           "id": "BA",
           "arcs": [ [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ] ]
@@ -84,7 +92,9 @@
             "x": "665",
             "y": "440",
             "width": "80",
-            "height": "80"
+            "height": "80",
+            "artPiece": "Self portrait (c. 1853) - Zahari Zograf",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Zahari_Zograf\" target=\"_blank\">About Zahari Zograf</a></br><a href=\"https://theculturetrip.com/europe/bulgaria/articles/8-bulgarian-artists-you-need-to-know/\" target=\"_blank\">More Bulgarian painters</a>"
           },
           "id": "BG",
           "arcs": [ [ 32, 33, 34, 35, 36, 37 ] ]
@@ -98,7 +108,9 @@
             "x": "760",
             "y": "542",
             "width": "40",
-            "height": "40"
+            "height": "40",
+            "artPiece": "Constantis' house at Askas village (1941) - Adamantios Diamantis",
+            "paragraph": "<a href=\"https://www.boccf.org/publications-holder/Cypriot-Artists/Adamantios-Diamantis-His-Life-and-Work/\" target=\"_blank\">About Adamantios Diamantis</a>"
           },
           "id": "CY",
           "arcs": [ [ 38 ] ]
@@ -112,7 +124,9 @@
             "x": "520",
             "y": "214",
             "width": "100",
-            "height": "100"
+            "height": "100",
+            "artPiece": "Summer Evening on Skagen's Southern Beach (1893) - Peder Severin Krøyer",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer\" target=\"_blank\">About Peder Severin Krøyer</a></br><a href=\"https://www.ranker.com/list/famous-artists-from-denmark/reference\" target=\"_blank\">More Danish painters</a>"
           },
           "id": "DK",
           "arcs": [
@@ -145,7 +159,9 @@
             "x": "325",
             "y": "220",
             "width": "120",
-            "height": "120"
+            "height": "120",
+            "artPiece": "To the Unknown British Soldier in France (1927) - Sir William Orpen",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/William_Orpen\" target=\"_blank\">About Sir William Orpen</a></br><a href=\"https://www.jerrysartarama.com/blog/4-irish-painters-you-need-to-know/\" target=\"_blank\">More Irish painters</a>"
           },
           "id": "IE",
           "arcs": [
@@ -164,7 +180,9 @@
             "x": "655",
             "y": "190",
             "width": "100",
-            "height": "100"
+            "height": "100",
+            "artPiece": "Landscape with a Red Cloud (1913-1914) - Konrad Mägi",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Konrad_M%C3%A4gi\" target=\"_blank\">About Konrad Mägi</a>"
           },
           "id": "EE",
           "arcs": [
@@ -185,7 +203,9 @@
             "x": "528",
             "y": "374",
             "width": "140",
-            "height": "140"
+            "height": "140",
+            "artPiece": "The Kiss (1907-1908) - Gustav Klimt",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Gustav_Klimt\" target=\"_blank\">About Gustav Klimt</a></br><a href=\"http://en.classora.com/reports/l128973/who-are-the-best-austrian-painters-in-history\" target=\"_blank\">More Austrian painters</a>"
           },
           "id": "AT",
           "arcs": [ [ 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97 ] ]
@@ -199,7 +219,9 @@
             "x": "550",
             "y": "320",
             "width": "120",
-            "height": "120"
+            "height": "120",
+            "artPiece": "",
+            "paragraph": "<a href=\"\" target=\"_blank\"></a></br><a href=\"\" target=\"_blank\"></a>"
           },
           "id": "CZ",
           "arcs": [ [ 98, 99, 100, 101, 102, 103, 104, 105, 106, -76 ] ]
@@ -213,7 +235,9 @@
             "x": "600",
             "y": "-20",
             "width": "240",
-            "height": "240"
+            "height": "240",
+            "artPiece": "Dancing Shoes (1882) - Helene Schjerfbeck",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Helene_Schjerfbeck\" target=\"_blank\">About Helene Schjerfbeck</a></br><a href=\"http://en.classora.com/reports/a218015/who-are-the-best-finnish-painters-in-history\" target=\"_blank\">More Finnish painters</a>"
           },
           "id": "FI",
           "arcs": [
@@ -254,7 +278,9 @@
             "x": "360",
             "y": "315",
             "width": "220",
-            "height": "220"
+            "height": "220",
+            "artPiece": "Dance at Le Moulin de la Galette (1876) - Pierre-Auguste Renoir",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir\" target=\"_blank\">About Pierre-Auguste Renoir</a></br><a href=\"https://mymodernmet.com/famous-french-painters/\" target=\"_blank\">More French painters</a>"
           },
           "id": "FR",
           "arcs": [
@@ -278,7 +304,9 @@
             "x": "822",
             "y": "415",
             "width": "100",
-            "height": "100"
+            "height": "100",
+            "artPiece": "A Tatar Fruiterer (1910) - Niko Pirosmani",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Niko_Pirosmani\" target=\"_blank\">About Niko Pirosmani</a></br><a href=\"https://theculturetrip.com/europe/georgia/articles/9-famous-georgian-painters-you-need-to-know/\" target=\"_blank\">More Georgian painters</a>"
           },
           "id": "GE",
           "arcs": [ [ 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, -10, 177, -8, -22, 178, 179 ] ]
@@ -294,7 +322,7 @@
             "width": "160",
             "height": "160",
             "artPiece": "Ad Parnassum (1932) - Paul Klee",
-            "paragraph": "<a href=\"https://www.learnodo-newtonic.com/famous-german-artists\">More about Germans artists</a>"
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Paul_Klee\" target=\"_blank\">About Paul Klee</a></br><a href=\"https://www.learnodo-newtonic.com/famous-german-artists\" target=\"_blank\">More Germans painters</a>"
           },
           "id": "DE",
           "arcs": [
@@ -330,7 +358,9 @@
             "x": "640",
             "y": "434",
             "width": "160",
-            "height": "160"
+            "height": "160",
+            "artPiece": "Athens Houses (1927-1928) - Nikos Hadjikyriakos-Ghikas",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Nikos_Hadjikyriakos-Ghikas\" target=\"_blank\">About Nikos Hadjikyriakos-Ghikas</a></br><a href=\"https://greecs.com/blog/top-10-of-the-most-famous-artists-coming-from-greece-that-stimulated-painting-and-sculpture/\" target=\"_blank\">More Greek painters</a>"
           },
           "id": "GR",
           "arcs": [
@@ -413,7 +443,9 @@
             "x": "568",
             "y": "320",
             "width": "200",
-            "height": "200"
+            "height": "200",
+            "artPiece": "Croatian National Revival (1895) - Vlaho Bukovac",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Vlaho_Bukovac\" target=\"_blank\">About Vlaho Bukovac</a></br><a href=\"https://theculturetrip.com/europe/croatia/articles/12-croatian-artists-you-should-know/\" target=\"_blank\">More Croatian artists</a>"
           },
           "id": "HR",
           "arcs": [
@@ -447,7 +479,9 @@
             "x": "588",
             "y": "344",
             "width": "120",
-            "height": "120"
+            "height": "120",
+            "artPiece": "Mostar, Roman bridge (1903) - Tivadar Csontváry Kosztka",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Tivadar_Csontv%C3%A1ry_Kosztka\" target=\"_blank\">About Tivadar Csontváry Kosztka</a></br><a href=\"https://welovebudapest.com/en/toplists/10-famous-painters-of-hungarian-art-history/\" target=\"_blank\">More Hungarian painters</a>"
           },
           "id": "HU",
           "arcs": [ [ -330, 344, -328, 345, -326, 346, -324, 347, -78, 348, 349, 350, 351 ] ]
@@ -461,7 +495,9 @@
             "x": "200",
             "y": "25",
             "width": "140",
-            "height": "140"
+            "height": "140",
+            "artPiece": "Lava at Bessastadir (1947-1954) - Jóhannes Sveinsson Kjarval",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/J%C3%B3hannes_Sveinsson_Kjarval\" target=\"_blank\">About Jóhannes Sveinsson Kjarval</a></br><a href=\"https://www.ranker.com/list/famous-artists-from-iceland/reference\" target=\"_blank\">More Icelandic painters</a>"
           },
           "id": "IS",
           "arcs": [ [ 352 ] ]
@@ -475,7 +511,9 @@
             "x": "770",
             "y": "570",
             "width": "60",
-            "height": "60"
+            "height": "60",
+            "artPiece": "The Beginnings of Tel-Aviv (1912) - Reuven Rubin",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Reuven_Rubin\" target=\"_blank\">About Reuven Rubin</a></br><a href=\"https://www.ranker.com/list/famous-artists-from-israel/reference\" target=\"_blank\">More Israeli painters</a>"
           },
           "id": "IL",
           "arcs": [
@@ -492,7 +530,9 @@
             "x": "460",
             "y": "390",
             "width": "220",
-            "height": "220"
+            "height": "220",
+            "artPiece": "Mona Lisa (1503 - 1505/1507) - Leonardo da Vinci",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Leonardo_da_Vinci\" target=\"_blank\">About Leonardo da Vinci</a></br><a href=\"http://www.learnodo-newtonic.com/famous-italian-artists-and-paintings\" target=\"_blank\">More Italian painters</a>"
           },
           "id": "IT",
           "arcs": [
@@ -533,7 +573,9 @@
             "x": "640",
             "y": "216",
             "width": "100",
-            "height": "100"
+            "height": "100",
+            "artPiece": "Early Spring (1898-1899) - Vilhelms Purvītis",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Vilhelms_Purv%C4%ABtis\" target=\"_blank\">About Vilhelms Purvītis</a></br><a href=\"https://artsology.com/latvian-art.php\" target=\"_blank\">More Latvian painters</a>"
           },
           "id": "LV",
           "arcs": [ [ -74, 389, -72, 390, -70, 391, 392, 393, 394, 395, 396 ] ]
@@ -547,7 +589,9 @@
             "x": "670",
             "y": "260",
             "width": "120",
-            "height": "120"
+            "height": "120",
+            "artPiece": "I and the Village (1911) - Marc Chagall",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Marc_Chagall\" target=\"_blank\">About Marc Chagall</a>"
           },
           "id": "BY",
           "arcs": [ [ -393, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426 ] ]
@@ -561,7 +605,9 @@
             "x": "640",
             "y": "245",
             "width": "100",
-            "height": "100"
+            "height": "100",
+            "artPiece": "Rex (1909) - Mikalojus Konstantinas Čiurlionis",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Mikalojus_Konstantinas_%C4%8Ciurlionis\" target=\"_blank\">About Mikalojus Konstantinas Čiurlionis</a>"
           },
           "id": "LT",
           "arcs": [
@@ -578,7 +624,9 @@
             "x": "600",
             "y": "310",
             "width": "100",
-            "height": "100"
+            "height": "100",
+            "artPiece": "Pri kolíske (1924) - Martin Benka",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Martin_Benka\" target=\"_blank\">About Martin Benka</a></br><a href=\"https://www.quora.com/Who-are-some-well-known-Slovak-painters\" target=\"_blank\">More Slovak painters</a>"
           },
           "id": "SK",
           "arcs": [ [ -77, -107, 437, 438, -349 ] ]
@@ -592,7 +640,9 @@
             "x": "",
             "y": "",
             "width": "",
-            "height": ""
+            "height": "",
+            "artPiece": "",
+            "paragraph": ""
           },
           "id": "LI",
           "arcs": [ [ -86, 439 ] ]
@@ -600,13 +650,15 @@
         {
           "type": "Polygon",
           "properties": {
-            "NAME": "The former Yugoslav Republic of Macedonia",
+            "NAME": "North Macedonia",
             "ImgUrl": "http://cultured.com/images/image_files/64/1132_o_harvest.jpg",
             "Artist": "dimitarAvramovskiPandilov",
             "x": "640",
             "y": "430",
             "width": "80",
-            "height": "80"
+            "height": "80",
+            "artPiece": "Harvest (1935) - Dimitar Avramovski-Pandilov",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Dimitar_Avramovski-Pandilov\" target=\"_blank\">About Dimitar Avramovski-Pandilov</a></br><a href=\"https://www.revolvy.com/folder/Macedonian-painters/557976\" target=\"_blank\">More Macedonian painters</a>"
           },
           "id": "MK",
           "arcs": [ [ 440, -35, -302, -15 ] ]
@@ -620,7 +672,9 @@
             "x": "",
             "y": "",
             "width": "",
-            "height": ""
+            "height": "",
+            "artPiece": "",
+            "paragraph": ""
           },
           "id": "MT",
           "arcs": [
@@ -637,7 +691,9 @@
             "x": "460",
             "y": "300",
             "width": "120",
-            "height": "120"
+            "height": "120",
+            "artPiece": "Christ's Entry into Brussels in 1889 (1988) - James Ensor",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/James_Ensor\" target=\"_blank\">About James Ensor</a></br><a href=\"https://www.brusselsairlines.com/en-pl/misc/inspire/belgium-art.aspx\" target=\"_blank\">More Belgian painters</a>"
           },
           "id": "BE",
           "arcs": [ [ 443, 444, 445, 446, 447, -228, 448, -145, 449, 450, 451 ] ]
@@ -651,7 +707,9 @@
             "x": "",
             "y": "",
             "width": "",
-            "height": ""
+            "height": "",
+            "artPiece": "",
+            "paragraph": ""
           },
           "id": "FO",
           "arcs": [
@@ -675,7 +733,9 @@
             "x": "",
             "y": "",
             "width": "",
-            "height": ""
+            "height": "",
+            "artPiece": "",
+            "paragraph": ""
           },
           "id": "AD",
           "arcs": [ [ 461, -162 ] ]
@@ -689,7 +749,9 @@
             "x": "500",
             "y": "340",
             "width": "40",
-            "height": "40"
+            "height": "40",
+            "artPiece": "Stretch of the Moselle at Greiveldange with Stadtbredimus (1930) - Nico Klopp",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Nico_Klopp\" target=\"_blank\">About Nico Klopp</a></br><a href=\"https://www.revolvy.com/page/List-of-painters-from-Luxembourg\" target=\"_blank\">More Luxembourg painters</a>"
           },
           "id": "LU",
           "arcs": [ [ -227, 462, -225, -148, 463, -146, -449 ] ]
@@ -703,7 +765,9 @@
             "x": "",
             "y": "",
             "width": "",
-            "height": ""
+            "height": "",
+            "artPiece": "",
+            "paragraph": ""
           },
           "id": "MC",
           "arcs": [ [ 464, 465, -158 ] ]
@@ -717,7 +781,9 @@
             "x": "600",
             "y": "382",
             "width": "100",
-            "height": "100"
+            "height": "100",
+            "artPiece": "",
+            "paragraph": "<a href=\"\" target=\"_blank\"></a></br><a href=\"\" target=\"_blank\"></a>"
           },
           "id": "ME",
           "arcs": [ [ -28, 466, -13, 467, -308, 468 ] ]
@@ -731,7 +797,9 @@
             "x": "414",
             "y": "288",
             "width": "120",
-            "height": "120"
+            "height": "120",
+            "artPiece": "The Starry Night (1889) - Vincent van Gogh",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Vincent_van_Gogh\" target=\"_blank\">About Vincent van Gogh</a></br><a href=\"https://www.learnodo-newtonic.com/famous-dutch-artists-and-paintings\" target=\"_blank\">More Dutch painters</a>"
           },
           "id": "NL",
           "arcs": [
@@ -755,7 +823,9 @@
             "x": "420",
             "y": "0",
             "width": "260",
-            "height": "260"
+            "height": "260",
+            "artPiece": "The Scream (1893) - Edvard Munch",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Edvard_Munch\" target=\"_blank\">About Edvard Munch</a></br><a href=\"https://www.ranker.com/list/famous-artists-from-norway/reference\" target=\"_blank\">More Norwegian painters</a>"
           },
           "id": "NO",
           "arcs": [
@@ -863,7 +933,9 @@
             "x": "570",
             "y": "270",
             "width": "140",
-            "height": "140"
+            "height": "140",
+            "artPiece": "Self-Portrait with Wife at the Window (1904) - Stanisław Wyspiański",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Stanis%C5%82aw_Wyspia%C5%84ski\" target=\"_blank\">About Stanisław Wyspiański</a></br><a href=\"https://www.slavorum.org/5-polish-painters-you-should-know/\" target=\"_blank\">More Polish painters</a>"
           },
           "id": "PL",
           "arcs": [ [ -106, -211, 575, -209, 576, -207, 577, -205, 578, -203, 579, -192, 580, 581, -433, -422, 582, 583, 584, -438 ] ]
@@ -877,7 +949,9 @@
             "x": "336",
             "y": "450",
             "width": "100",
-            "height": "100"
+            "height": "100",
+            "artPiece": "St. Peter (circa 1530) - Vasco Fernandes",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Gr%C3%A3o_Vasco\" target=\"_blank\">About Vasco Fernandes</a></br><a href=\"https://artsandculture.google.com/theme/7QJi0FA1aYuNIw\" target=\"_blank\">More Portuguese painters</a>"
           },
           "id": "PT",
           "arcs": [ [ 585, 586 ] ]
@@ -891,7 +965,9 @@
             "x": "645",
             "y": "375",
             "width": "110",
-            "height": "110"
+            "height": "110",
+            "artPiece": "Self-portrait (1925) - Ion Theodorescu-Sion",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Ion_Theodorescu-Sion\" target=\"_blank\">About Ion Theodorescu-Sion</a></br><a href=\"https://www.ranker.com/list/famous-artists-from-romania/reference\" target=\"_blank\">More Romanian painters</a>"
           },
           "id": "RO",
           "arcs": [ [ 587, 588, 589, 590, -37, 591, -351 ] ]
@@ -905,7 +981,9 @@
             "x": "702",
             "y": "375",
             "width": "70",
-            "height": "70"
+            "height": "70",
+            "artPiece": "The Girls from Ciadar-Lunga (1960) - Mihai Grecu",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Mihai_Grecu\" target=\"_blank\">About Mihai Grecu</a>"
           },
           "id": "MD",
           "arcs": [ [ 592, 593, 594, 595, 596, 597, 598, 599, 600, -589 ] ]
@@ -919,7 +997,9 @@
             "x": "570",
             "y": "380",
             "width": "75",
-            "height": "75"
+            "height": "75",
+            "artPiece": "Gerajte (1908) - Ivan Grohar",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Ivan_Grohar\" target=\"_blank\">About Ivan Grohar</a>"
           },
           "id": "SI",
           "arcs": [ [ -79, -348, -344, 601, -342, 602, -340, 603, -338, 604, -359, 605, -357 ] ]
@@ -933,7 +1013,9 @@
             "x": "360",
             "y": "430",
             "width": "160",
-            "height": "160"
+            "height": "160",
+            "artPiece": "The Weeping Woman (1937) - Pablo Picasso",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Pablo_Picasso\" target=\"_blank\">About Pablo Picasso</a></br><a href=\"https://www.learnodo-newtonic.com/famous-spanish-painters\" target=\"_blank\">More Spanish painters</a>"
           },
           "id": "ES",
           "arcs": [
@@ -957,7 +1039,9 @@
             "x": "510",
             "y": "0",
             "width": "280",
-            "height": "280"
+            "height": "280",
+            "artPiece": "The Lady with the Veil (1768) - Alexander Roslin",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Alexander_Roslin\" target=\"_blank\">About Alexander Roslin</a>"
           },
           "id": "SE",
           "arcs": [
@@ -991,7 +1075,9 @@
             "x": "512",
             "y": "375",
             "width": "60",
-            "height": "60"
+            "height": "60",
+            "artPiece": "Self-portrait (1912) - Ferdinand Hodler",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Ferdinand_Hodler\" target=\"_blank\">About Ferdinand Hodler</a></br><a href=\"https://suissepic.com/famous-swiss-painters\" target=\"_blank\">More Swiss painters</a>"
           },
           "id": "CH",
           "arcs": [
@@ -1008,7 +1094,9 @@
             "x": "710",
             "y": "420",
             "width": "200",
-            "height": "200"
+            "height": "200",
+            "artPiece": "Girl Reciting Qu'ran (1880) - Osman Hamdi",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Osman_Hamdi_Bey\" target=\"_blank\">About Osman Hamdi</a>"
           },
           "id": "TR",
           "arcs": [
@@ -1028,7 +1116,9 @@
             "x": "380",
             "y": "180",
             "width": "200",
-            "height": "200"
+            "height": "200",
+            "artPiece": "The Fighting Temeraire, tugged to her last Berth to be broken up (1838) - J. M. W. Turner",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/J._M._W._Turner\" target=\"_blank\">About J. M. W. Turner</a></br><a href=\"http://britishpaintings.org\" target=\"_blank\">More British painters</a>"
           },
           "id": "GB",
           "arcs": [
@@ -1091,7 +1181,9 @@
             "x": "650",
             "y": "240",
             "width": "250",
-            "height": "250"
+            "height": "250",
+            "artPiece": "Reply of the Zaporozhian Cossacks (1880–1891) - Ilya Repin",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Ilya_Repin\" target=\"_blank\">About Ilya Repin</a></br><a href=\"http://proudofukraine.com/ukrainian-art-and-ukrainian-painters\" target=\"_blank\">More Ukrainian painters</a>"
           },
           "id": "UA",
           "arcs": [
@@ -1110,7 +1202,9 @@
             "x": "",
             "y": "",
             "width": "",
-            "height": ""
+            "height": "",
+            "artPiece": "",
+            "paragraph": "<a href=\"\" target=\"_blank\"></a></br><a href=\"\" target=\"_blank\"></a>"
           },
           "id": "SM",
           "arcs": [ [ 708, -367 ] ]
@@ -1124,7 +1218,9 @@
             "x": "632",
             "y": "380",
             "width": "120",
-            "height": "120"
+            "height": "120",
+            "artPiece": "The Wounded Montenegrin (1882) - Paja Jovanović",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Paja_Jovanovi%C4%87\" target=\"_blank\">About Paja Jovanović</a></br><a href=\"https://theculturetrip.com/europe/serbia/articles/the-10-most-influential-serbian-artists-in-history\" target=\"_blank\">More Serbian painters</a>"
           },
           "id": "RS",
           "arcs": [ [ -467, -27, -335, 709, -333, 710, -331, -352, -592, -36, -441, -14 ] ]
@@ -1138,7 +1234,9 @@
             "x": "",
             "y": "",
             "width": "",
-            "height": ""
+            "height": "",
+            "artPiece": "",
+            "paragraph": ""
           },
           "id": "VA",
           "arcs": [ [ -368 ] ]
@@ -1152,7 +1250,9 @@
             "x": "520",
             "y": "0",
             "width": "550",
-            "height": "550"
+            "height": "550",
+            "artPiece": "Christ the Redeemer (ca. 1410) - Andrei Rublev",
+            "paragraph": "<a href=\"https://en.wikipedia.org/wiki/Andrei_Rublev\" target=\"_blank\">About Andrei Rublev</a></br><a href=\"https://www.rbth.com/arts/327918-10-painters-who-define-russian-art\" target=\"_blank\">More Russian painters</a>"
           },
           "id": "RU",
           "arcs": [

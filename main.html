@@ -5,13 +5,14 @@
     <meta charset="utf-8">
   </head>
 
-  <body>
+  <body style="background-color: #C1E1EC;">
+    <h1 class="main-title">European Art</h1>
     <div class="container">
       <div id="map"></div>
       <div class="info-box">
-        <h2 id="title"></h2>
-        <h3 id="subtitle"></h3>
-        <p id="paragraph"></p>
+        <h2 id="title" style="text-align: center;"></h2>
+        <h3 id="subtitle" style="text-align: center;"></h3>
+        <p id="paragraph" style="text-align: center;"></p>
         <img width=250 id="image"></img>
       </div>
     </div>
@@ -24,20 +25,27 @@
     .tooltip {
       position: absolute;
       text-align: center;
-      width: 60px;
-      height: 12px;
+      width: 80px;
+      height: 60px;
       padding: 8px;
       margin-top: -20px;
       font: 10px sans-serif;
-      background: #ddd;
+      background: rgba(128, 48, 128, 0.7);
       pointer-events: none;
+      opacity: 1;
+      border-radius: 15px 30px 15px 5px;
+      white-space: pre-wrap;
+    }
+
+    .main-title {
+      text-align: center;
+      width: 100%;
     }
 
     .container {
       display: flex;
       background-color: #C1E1EC;
       width: 100%;
-
     }
 
     .info-box {
